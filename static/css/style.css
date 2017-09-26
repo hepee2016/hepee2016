@@ -1,0 +1,39 @@
+
+
+
+#hit {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #d6e9c6;
+    border-radius: 4px;
+    color: #3c763d;
+    background-color: #dff0d8;
+    font-size: 8pt;
+}
+
+.index {
+    background-image: url("/images/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin: 100px auto;
+}
+
+
+
+.line-clamp {
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; // 这里修改为要显示的行数
+-webkit-box-orient: vertical;
+}
+
+@media all and (min-width: 320px) and (max-width: 800px) {
+
+    .video {
+
+        height: 200px;
+    }
+}
+
+
